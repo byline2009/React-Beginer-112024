@@ -6,6 +6,7 @@ import Profile from "./pages/Profile";
 import Todo from "./pages/Todo";
 import Reducer from "./pages/Reducer";
 import TutFormik from "./pages/TutFormik";
+import TypeScript from "./pages/TypeScript";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route path="useReducer" element={<Reducer />}></Route>{" "}
             <Route path="useReducer" element={<Reducer />}></Route>
             <Route path="formik" element={<TutFormik />}></Route>
+            <Route path="typescript" element={<TypeScript />}></Route>
             <Route path="profile/:userid" element={<Profile />}></Route>
           </Route>
         </Routes>

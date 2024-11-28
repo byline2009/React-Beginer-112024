@@ -28,6 +28,11 @@ const Header = () => {
               <span>UseFormik</span>
             </Link>
           </Nav.Item>
+          <Nav.Item>
+            <Link to="typescript" className="nav-link">
+              <span>TypeScript</span>
+            </Link>
+          </Nav.Item>
         </Nav>
       </div>
     </div>
