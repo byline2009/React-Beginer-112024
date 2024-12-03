@@ -1,27 +1,16 @@
-import React, { useEffect, useState, useMemo } from "react";
-import { Button } from "react-bootstrap";
-import { useReducer } from "react";
-import { reducer, initState } from "../utils/reducer";
+import React from "react";
 
 const ChildComponent = (props) => {
-  const [state, dispatch] = useReducer(reducer, initState);
-
+  console.log(props);
   return (
-    <>
+    <div>
       <button
         onClick={() => {
-          dispatch({ type: "add" });
+          props.bindingToWay(3);
         }}
-      >
-        Add count
-      </button>
-      <h1>{state.count}</h1>
-    </>
+      >Click me</button>
+    </div>
   );
-};
-
-const test = () => {
-  console.log("childState");
 };
 
 export default ChildComponent;

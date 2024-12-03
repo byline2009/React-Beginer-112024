@@ -29,8 +29,8 @@ const Header = () => {
             </Link>
           </Nav.Item>
           <Nav.Item>
-            <Link to="typescript" className="nav-link">
-              <span>TypeScript</span>
+            <Link to="useToolkit" className="nav-link">
+              <span>useToolkit</span>
             </Link>
           </Nav.Item>
         </Nav>

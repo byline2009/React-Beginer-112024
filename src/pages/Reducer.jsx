@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import ChildComponent from "../components/ChildComponent";
 import { useReducer } from "react";
 import { reducer, initState } from "../utils/reducer";
 const Reducer = () => {
@@ -11,7 +10,6 @@ const Reducer = () => {
   return (
     <div>
       <h1>{state.count}</h1>
-      <ChildComponent />
     </div>
   );
 };
